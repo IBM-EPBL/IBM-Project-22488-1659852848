@@ -1,0 +1,6 @@
+import random
+while True:
+    temperature=random.randint(-20,40)
+    humidity=random.random()
+    if(temperature>36):
+        print("High temperature")
